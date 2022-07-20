@@ -6,13 +6,15 @@ import Count from './components/Count';
 import styles from './components/styles';
 import InputText from './components/InputText';
 import UserNameandPassword from './components/UserNameandPassword';
+import UserNamePassword from './components/UserNamePassword';
 
 const App = () => {
   return (
     <View>
       {/* <Count/> */}
      {/* <InputText/> */}
-     <UserNameandPassword/>
+     {/* <UserNameandPassword/> */}
+     <UserNamePassword/>
     </View>
   )
 }
