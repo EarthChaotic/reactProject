@@ -14,10 +14,11 @@ import Touchable_Example from './components/Touchable_Example';
 import TouchablePractice from './components/TouchablePractice';
 import Dynamicstyle from './components/Dynamicstyle';
 import ModalExample from './components/ModalExample';
+import ModalPractice from './components/ModalPractice';
 
 const App = () => {
   return (
-    <View>
+    <View style={{flex:1,justifyContent:'center'}}>
       {/* <Count/> */}
      {/* <InputText/> */}
      {/* <UserNameandPassword/> */}
@@ -28,10 +29,12 @@ const App = () => {
      {/* <Touchable_Example/> */}
      {/* <TouchablePractice/> */}
      {/* <Dynamicstyle/> */}
-     <ModalExample/>
+     {/* <ModalExample/> */}
+     <ModalPractice/>
      
     </View>
   )
 }
 
 export default App
+
