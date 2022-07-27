@@ -37,6 +37,7 @@ const TouchablePractice = () => {
           <View style={styles.buttonIconSeparatorStyle} />
           <Text style={styles.buttonTextStyle}>Login Using Google plus</Text>
         </TouchableOpacity>
+        
       </View>
     </SafeAreaView>
   );
