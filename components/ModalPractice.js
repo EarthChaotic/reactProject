@@ -33,7 +33,7 @@ const ModalPractice = () => {
           </View>
         </Modal>
         {/* Updating the state to make Model Visible */}
-        <Text style={[styles.modalText,styles.textStyle]}></Text>ไฟในห้องปิดอยู่</Text>
+        <Text style={[styles.modalText,styles.textStyle]}>ไฟในห้องปิดอยู่</Text>
         <Button
           title="กรุณากดปุ่มเพื่อเปิดไฟอีกครั้ง"
           onPress={() => setShowModal(!showModal)}
